@@ -1,0 +1,105 @@
+# SBT files
+target/
+project/target/
+project/project/
+.cache/
+lib_managed/
+src_managed/
+.history/
+.classpath
+.project
+.settings/
+.idea/
+*.iml
+
+# MacOS
+.DS_Store
+
+# Windows
+Thumbs.db
+ehthumbs.db
+*.lnk
+
+# Scala
+*.class
+*.log
+
+# Logs
+logs/
+*.log
+
+# IntelliJ
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+out/
+META-INF/
+
+# VS Code
+.vscode/
+
+# Bloop
+.bloop/
+
+# Metals
+.metals/
+.cache/
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Package Files
+*.jar
+*.war
+*.nar
+*.ear
+*.zip
+*.tar.gz
+*.rar
+*.exe
+*.dll
+*.deb
+*.dmg
+*.pkg
+*.iso
+*.msi
+*.bin
+*.pb
+*.so
+
+# Spark
+spark-warehouse/
+.derby/
+.metastore/
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# Gradle
+.gradle
+build/
+.gradle/
+build/
+!gradle/wrapper/gradle-wrapper.jar
+.gradle/
+build/
+.gradle/
+build/
+
+# Temporary files
+*~
+*.tmp
+*.bak
+*.swp
+*.swo
+*.swn
