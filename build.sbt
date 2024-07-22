@@ -43,12 +43,13 @@ name := "scala-spark-project"
 
 version := "0.1"
 
-scalaVersion := "2.13.14"
+scalaVersion := "2.13.8"
 
 libraryDependencies ++= Seq(
-  "org.apache.spark" %% "spark-core" % "3.1.1",
-  "org.apache.spark" %% "spark-sql" % "3.1.1",
-  "org.apache.hadoop" % "hadoop-client" % "3.2.0"
+  "org.apache.spark" %% "spark-core" % "3.3.0",
+  "org.apache.spark" %% "spark-sql" % "3.3.0",
+  "org.apache.hadoop" % "hadoop-client" % "3.2.0",
+  "org.scalatest" %% "scalatest" % "3.2.14" % Test
 )
 
 resolvers ++= Seq(
